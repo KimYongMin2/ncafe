@@ -6,25 +6,114 @@
     <title>Document</title>
 </head>
 <body>
-<!-- ===header==================================================== -->
-    <div>
-        <div>Ncafe</div>
+<!-- ====header s==================================================== -->
+    <header>
+        <h1>Ncafe</h1>
         <div>공유</div>
-    </div>
-<!-- ======================================================= -->
+    </header>
+<!-- ====header e=================================================== -->
 
-<!-- ===main==================================================== -->
-    <div>
-
-    </div>
-<!-- ======================================================= -->
- 
-<!-- ====footer=================================================== -->
-    <div>
-        <div>대시보드</div>
-        <div>메뉴목록</div>
-        <div>메뉴추가</div>
-    </div>  
-<!-- ======================================================= -->
+<!-- ===main s==================================================== -->
+    <main>
+        <h1>메뉴 등록</h1> <!-- main 제목 -->
+        <div>
+            <!-- 메뉴 등록 폼 s -->
+            <div>
+                <h1>메뉴등록 폼</h1> <!-- 제목 -->
+                <div>
+                    <!-- 메뉴 이미지 s -->
+                    <div>
+                        메뉴이미지 <input type="file">
+                    </div>
+                    <!-- 메뉴 이미지 e -->
+                    <div>
+                        한글명 <input type="text">
+                    </div>
+                    <div>
+                        영문명 <input type="text">
+                    </div>
+                    <!-- 카테고리 영역 s-->
+                    <div>
+                        카테고리
+                        <select>
+                            <option>커피</option>
+                            <option>티, 차</option>
+                            <option>스무디</option>
+                            <option>에이드</option>
+                        </select>
+                    </div>
+                    <!-- 카테고리 영역 e-->
+                     <div>
+                        가격 <input type="text">
+                     </div>
+                     <div>
+                        설명
+                        <textarea cols="60" rows="10">
+                            안녕하세요~
+                            메뉴입니다~
+                        </textarea>
+                     </div>
+                     <div>
+                        판매가능 <input type="checkbox">
+                     </div>
+                     <div>
+                        Hot <input type="checkbox">
+                     </div>
+                     <div>
+                        Iced <input type="checkbox">
+                     </div>
+                    <!-- 저장 취소버튼 s -->
+                    <div>
+                        <button>저장</button>
+                        <button>취소</button>
+                    </div>
+                    <!-- 저장 취소버튼 e -->
+                </div>
+            </div>
+            <!-- 메뉴등록폼 e -->
+        </div>
+    </main>
+<!-- ====main e=================================================== -->
+    <!-- nav s -->
+    <nav>
+        <h1>바로가기 메뉴</h1>
+        <ul>
+            <li><a href="index.html">대시보드</a></li>
+            <li><a href="list.html">메뉴목록</a></li>
+            <li><a href="create.html">메뉴추가</a></li>
+        </ul>
+    </nav>  
+    <!-- nav e -->
+<!-- ====footer s=================================================== -->
+    <footer>
+        <section>
+            <h1>사이트 정보</h1>
+            <div>
+                <section>
+                    <h1>회사정보</h1>
+                    <dl>
+                        <dt>상호</dt>
+                        <dd>뉴카페</dd>
+                        <dt>사업자등록번호</dt>
+                        <dd>111-222222-11</dd>
+                        <dt>대표</dt>
+                        <dd>뉴렉처</dd>
+                    </dl>
+                </section>
+                <section>
+                    <h1>연락처</h1>
+                    <dl>
+                        <dt>주소</dt>
+                        <dd>서울시 마포구 백범로</dd>
+                        <dt>전화</dt>
+                        <dd>02-111-333</dd>
+                        <dt>이메일</dt>
+                        <dd>test@test.test</dd>
+                    </dl>
+                </section>
+            </div>
+        </section>
+    </footer>
+<!-- ====footer e=================================================== -->
 </body>
 </html>
